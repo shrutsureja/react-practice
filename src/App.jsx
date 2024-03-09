@@ -1,12 +1,16 @@
 import { useState } from 'react'
 import './App.css'
 import ThinkingInReact from './components/ThinkingInReact'
+import ConditionalRerendering from './components/ConditionalRerendering'
 
 function App() {
 
   return (
-    <> 
-    <ThinkingInReact/>
+    <>
+       {/*From the react.dev -> topic is Thinking in React */}
+      {/* <ThinkingInReact/> */}
+      {/* Trying the Conditional rendring */}
+      <ConditionalRerendering/>
     </>
   )
 }
@@ -53,6 +57,6 @@ export default App
     the session in the paytm project and then later move to the nextjs application
 
 
-    
+    - need to learn more Database design 
 
 */
